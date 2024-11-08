@@ -1,0 +1,17 @@
+#ifndef LED_CONTROL_H
+#define LED_CONTROL_H
+
+#include "main.h"
+
+/* Khai báo các hàm điều khiển LED */
+void LED_Mode1(void);
+void LED_Mode2(void);
+void LED_Mode3(void);
+
+/* Khai báo hàm để chuyển đổi chế độ LED */
+void Change_LED_Mode(void);
+
+/* Con trỏ hàm để điều khiển LED */
+extern void (*LED_Control)(void);
+
+#endif // LED_CONTROL_H
