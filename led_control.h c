@@ -12,6 +12,19 @@ void LED_Mode3(void);
 void Change_LED_Mode(void);
 
 /* Con trỏ hàm để điều khiển LED */
+
+/* Con trỏ hàm để điều khiển LED */
+
+
+/* Con trỏ hàm để điều khiển LED */
+
+
+
+/* Con trỏ hàm để điều khiển LED */
+
+
+/* Con trỏ hàm để điều khiển LED */
+
 extern void (*LED_Control)(void);
 
 #endif // LED_CONTROL_H
